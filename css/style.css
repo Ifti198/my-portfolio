@@ -1,0 +1,53 @@
+/* fonts google */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap');
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;  
+}
+:root{
+    --overlay: rgba(37, 42, 46, 0.582);
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: White !important;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(28, 182, 152) !important;
+}
+.bg-overlay{
+    background: var(--overlay);
+}
+/* header  */
+/* .banner__img img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+
+} */
+#header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.863)), url(../image/banner.jpg);
+}
+.banner__img img{
+    width: 296px;
+    height: 296px;
+    margin-bottom: 50px;
+}
+.banner__content .banner__social i{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(37, 42, 46);
+    margin: 0 4px;
+    /* border-radius: 50%; */
+}
